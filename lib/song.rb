@@ -19,4 +19,8 @@ class Song
     name
   end
 
+  def self.artists
+    @@artists
+  end
+
 end
