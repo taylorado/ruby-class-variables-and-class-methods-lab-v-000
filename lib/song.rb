@@ -39,12 +39,12 @@ class Song
   end
 
   def self.genre_count
-    @@genres.inject(Hash.new(0)) { |total, i| total[i] += 1 ;total} 
+    @@genres.inject(Hash.new(0)) { |total, i| total[i] += 1 ;total}
    end
 
    def self.artist_count
      @@artists.inject(Hash.new(0)) { |total, i| total[i] += 1 ;total}
    end
-   
+
 
 end
