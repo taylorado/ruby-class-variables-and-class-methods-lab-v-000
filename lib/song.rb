@@ -19,6 +19,14 @@ class Song
     name
   end
 
+  def artists
+
+  end
+
+  def genres
+
+  end
+
   def self.artists
     @@artists
   end
