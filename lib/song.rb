@@ -19,15 +19,15 @@ class Song
   end
 
   def name
-    name
+    @name
   end
 
   def artist
-
+    @artist
   end
 
   def genre
-
+    @genre
   end
 
   def self.artists
